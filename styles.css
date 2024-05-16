@@ -1,0 +1,76 @@
+body {
+    background-color: black;
+    font-family: "PoetsenOne", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.post { 
+    background-color: white;
+    width: 36%;
+}
+
+.post-header {
+    display: flex;
+    padding: 0.3rem;
+    justify-content: space-between;
+}
+
+.header-logo {
+    display: flex;
+    padding-right: 0.4rem;
+    justify-content:space-around;
+}
+
+.header-text {
+    display: flex-start;
+    font-size: small;
+    padding-right: 0.4rem;
+}
+
+.logo {
+    padding: 0.4rem;
+}
+
+.post-img {
+    width: 100%;
+    height: 300px;
+}
+
+.post-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.post-icon {
+    justify-content: space-between;
+    display: flex;
+    font-size: 25px;
+    width: 98%;
+    position: relative;
+    margin-top: 5px;
+}
+
+.left-icon {
+    justify-content: space-around;
+    margin-left: 0.4rem; 
+}
+
+.right-icon {
+    margin-right: 15px;
+}
+
+.some-text span {
+    font-weight: bold;
+}
+
+.like {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.post-body {
+    padding: 0.5rem;
+}
